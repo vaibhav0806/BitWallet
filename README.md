@@ -1,8 +1,13 @@
-# Cypherock Onboarding Task
+# BitWallet
+
+## Features
+ - Import wallets that you are already using on the testnet seamlessly
+ - Sync button helps you update your wallets with ease
+ - View balances and transactions of your wallets with a click
 
 ## Instructions to run the code
- - Download the zip file and unzip it
- - Open the unzipped folder in a command line and use `npm install`
+ - Clone the repository and go to the repo in the command line
+ - Use `npm install`
  - After all the dependencies have been installed, run `npm run dev`
  - Open the url `http://localhost:5173` in your browser
 
