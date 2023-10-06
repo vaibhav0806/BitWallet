@@ -1,0 +1,20 @@
+.wallet {
+    background-color: #1A1F26;
+    width: 95%;
+    margin: 3px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #ADABAA;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.wallet-name,.wallet-balance,.wallet-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wallet-name{
+    gap: 10px;
+}

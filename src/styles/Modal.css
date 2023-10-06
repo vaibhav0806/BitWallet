@@ -1,0 +1,77 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+    height: 600px;
+    background-color: #171C23;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .modalHeader {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .modal-content .input-name {
+    width: 500px;
+    height: 40px;
+  }
+
+  .modal-content .input-mnemonic {
+    width: 500px;
+    height: 120px;
+  }
+
+  .modal-content label {
+    margin-bottom: 10px;
+  }
+
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+  }
+
+  input, textarea {
+    margin-top: 5px;
+    background-color: #20242B;
+    border-color: #C5C5C545;
+    color: white;
+  }
+
+  .modal-content button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #DB953C;
+    border: none;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  

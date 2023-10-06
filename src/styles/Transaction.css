@@ -1,0 +1,38 @@
+.transaction {
+    background-color: #1A1F26;
+    margin: 3px 0;
+    width: 100%;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: #ADABAA;
+    border-radius: 10px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.transaction-datetime {
+    display: flex;
+}
+
+.transaction-datetime, .transaction-wallet, .transaction-result, .transaction-amount, .transaction-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-datetime{
+    gap: 10px;
+}
+
+.time {
+    color: "#ADABAA";
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.transaction-result, .transaction-status {
+    color: #8484F1;
+}

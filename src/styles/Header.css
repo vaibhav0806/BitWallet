@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid rgba(112, 128, 144, 0.521);
+    text-align: right;
+    color: #E0B36A;
+    font-size: 25px;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

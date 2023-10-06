@@ -1,0 +1,66 @@
+.wallets {
+    color: white;
+    padding-top: 20px;
+    width: 85vh;
+    height: 85vh;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.import-wallet {
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    padding: 15px 25px;
+    background-color: #242830;
+    border: none;
+    border-radius: 10px;
+    color: #BEB4A8;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet-pre {
+    margin-left: 5rem;
+    font-size: 17px;
+    color: #ADABAA;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.hr-line {
+    width: 90%;
+    border-color:rgba(112, 128, 144, 0.521);
+    /* border: 1px solid gray; */
+    border-top: none;
+}
+
+.wallet-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #474848;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.wallet-head p{
+    text-align: center;
+}
+
+.wallet-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
