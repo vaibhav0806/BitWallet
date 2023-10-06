@@ -17,4 +17,6 @@
 
 ## Dependencies
  - Get the Blockcypher API key from <a href="https://www.blockcypher.com">Blockcypher</a> and place it in a .env file, with name BLOCKCYPHER_API_KEY
+
+Created by ME <a href="https://www.github.com/vaibhav0806">Github</a> | <a href="https://www.linkedin.com/in/vaibhav0806">LinkedIn</a>
  
