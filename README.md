@@ -14,4 +14,7 @@
 ## Some wallets for Demo
  - Mnemonic-1 : `oval siege rebuild provide exclude issue east flag day dwarf endorse mechanic`
  - Mnemonic-2 : `alley oxygen bulk happy slush peanut attend else ahead system daughter gorilla`
+
+## Dependencies
+ - Get the Blockcypher API key from <a href="https://www.blockcypher.com">Blockcypher</a> and place it in a .env file, with name BLOCKCYPHER_API_KEY
  
